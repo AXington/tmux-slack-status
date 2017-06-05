@@ -32,7 +32,7 @@ if token:
     for group in counts["groups"]:
         if not group["is_muted"] and not group["is_archived"]:
             unread += group["unread_count_display"]
-        metions += group["mention_count_display"]
+        mentions += group["mention_count_display"]
 
     for im in counts["ims"]:
         dms += im["dm_count"]
